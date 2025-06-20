@@ -1,5 +1,6 @@
 # Composer Related
 composer.lock
+auth.json
 /vendor
 
 # Frontend Assets
@@ -12,6 +13,9 @@ yarn-error.log
 # Caches
 .phpunit.cache
 .phpunit.result.cache
+.eslintcache
+.prettier-cache
+tsconfig.tsbuildinfo
 /build
 
 # IDE Helper
@@ -23,6 +27,7 @@ _ide_helper_models.php
 /.idea
 /.fleet
 /.vscode
+/.zed
 
 # Misc
 phpunit.xml
